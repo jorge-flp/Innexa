@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --cor-primaria: #1E293B;  /* Azul escuro profissional */
+    --cor-secundaria: #0EA5E9; /* Azul chamadas de ação */
+    --cor-fundo: #F8FAFC;      /* Fundo ultra limpo */
+    --cor-texto: #0F172A;      /* Grafite escuro para leitura */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Classes customizadas estendendo o Tailwind */
+.bg-primaria { background-color: var(--cor-primaria); }
+.bg-secundaria { background-color: var(--cor-secundaria); }
+.bg-fundo { background-color: var(--cor-fundo); }
+.text-primaria { color: var(--cor-primaria); }
+.text-secundaria { color: var(--cor-secundaria); }
+.text-texto { color: var(--cor-texto); }
